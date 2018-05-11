@@ -50,6 +50,7 @@ const reducer = (state = intitialState, action) => {
                 day: state.todoDay,
                 tools: state.todoTools
             })
+            return state;
         default:
             return state;
     }
